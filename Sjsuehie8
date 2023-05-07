@@ -1,0 +1,66 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("RandomHub","Midnight")
+
+---Hi
+
+local Tab1 = window:NewTab("YourMom")
+local Tab1Section = Tab1:NewSection("Went for the milk😲😲🤯")
+
+--
+
+Tab1Section:NewButton("Speed","make your walksped 69",function()
+
+local WalkSpeed = 69
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 69
+
+end)
+
+Tab1Section:NewButton("Vhub", "Executes a Universal hub. :)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("B Genesis", "A really cool script with multiple games in it!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("NoobieHax", "key for NoobieHax is eiekeiknd82kSIE91kjeAjem.Key ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ieneijsjeuw/Y7rgufdt/main/82ns"))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("Nameless admin", "A really OP admin script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("NoobHub", "Key for NoobHub: NotHub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/danixbo/NoobHub/main/NoobHub')))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("NukeVsCity", "<3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+    print("Clicked")
+end)
+
+--
+
+local Tab1 = window:NewTab("YourDad")
+local Tab1Section = Tab1:NewSection("Killed himself 🤯")
+
+Tab1Section:NewButton("Touch/click = tp", "Tptool", function()
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Fuck me🥵"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+    print("Clicked")
+end)
